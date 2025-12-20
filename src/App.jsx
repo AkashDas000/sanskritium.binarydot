@@ -33,9 +33,9 @@ export default function DayOutRequest() {
           {[
             ["Name", "Apurvi Gupta"],
             ["Residence", "yamuna GIRLS HOSTEL / 319"],
-            ["Day out request for", "Medical"],
-            ["Requested at", "2025-11-23 11:24:41"],
-            ["Dates", "2025-11-23"],
+            ["Leave request for", "Medical"],
+            ["Requested at", "2025-12-25 20:12:26"],
+            ["Dates", "2025-12-25"],
           ].map(([label, value]) => (
             <div
               key={label}
