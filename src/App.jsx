@@ -18,12 +18,12 @@ export default function DayOutRequest() {
             Sanskriti University- Mathura
           </h1>
           <p className="text-3xl font-semibold text-gray-800 mt-2">
-            Day out request consent
+            Leave request consent
           </p>
         </div>  
 
         <p className="mt-8 text-base text-gray-700">
-          Kindly approve or deny the hostel Day out request
+          Kindly approve or deny the hostel Leave request
         </p>
 
       
@@ -33,9 +33,9 @@ export default function DayOutRequest() {
           {[
             ["Name", "Apurvi Gupta"],
             ["Residence", "yamuna GIRLS HOSTEL / 319"],
-            ["Leave request for", "Medical"],
+            ["Leave request for", "Winter Vacation"],
             ["Requested at", "2025-12-25 20:12:26"],
-            ["Dates", "2025-12-25"],
+            ["Dates", "2025-12-27"],
           ].map(([label, value]) => (
             <div
               key={label}
