@@ -33,9 +33,9 @@ export default function DayOutRequest() {
           {[
             ["Name", "Apurvi Gupta"],
             ["Residence", "yamuna GIRLS HOSTEL / 319"],
-            ["Leave request for", "Winter Vacation"],
+            ["Leave request for", "Visiting Parents"],
             ["Requested at", "2025-12-25 20:12:26"],
-            ["Dates", "2025-12-27"],
+            ["Dates", "2025-12-25 00:00:00 - 2026-01-10 00:00:00"],
           ].map(([label, value]) => (
             <div
               key={label}
@@ -77,7 +77,7 @@ export default function DayOutRequest() {
           <div className="mt-6 flex justify-between items-start bg-green-100 border border-green-300 text-green-800 px-5 py-4 rounded-lg">
             <p>
               <span className="font-semibold">Success!</span>{" "}
-              Day out request is {status}.
+              Leave request is {status}.
             </p>
             <button
               onClick={() => setShowMessage(false)}
