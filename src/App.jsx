@@ -66,7 +66,7 @@ export default function DayOutRequest() {
               </div>
             ) : (
               <span className="text-gray-900 text-base">
-                Leave request has already been {status}
+                Leave request has been {status}
               </span>
             )}
           </div>
