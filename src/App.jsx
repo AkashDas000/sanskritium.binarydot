@@ -35,7 +35,7 @@ export default function DayOutRequest() {
             ["Residence", "yamuna GIRLS HOSTEL / 319"],
             ["Leave request for", "Visiting Parents"],
             ["Requested at", "2025-12-25 20:12:26"],
-            ["Dates", "2025-12-25 00:00:00 - 2026-01-10 00:00:00"],
+            ["Dates", "2025-12-27 00:00:00 - 2026-01-10 00:00:00"],
           ].map(([label, value]) => (
             <div
               key={label}
